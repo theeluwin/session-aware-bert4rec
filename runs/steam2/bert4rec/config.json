@@ -1,0 +1,10 @@
+{
+    "solver": "BERT4RecSolver",
+    "dataloader": {
+        "max_num_segments": 5,
+        "use_session_token": true
+    },
+    "model": {
+        "temporal_dim": 32
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "dataloader": {
+        "mlm_mask_prob": 0.2
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "dataloader": {
+        "max_num_segments": 0,
+        "use_session_token": false
+    },
+    "model": {
+        "temporal_dim": 0
+    }
+}

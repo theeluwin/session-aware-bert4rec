@@ -1,0 +1,8 @@
+{
+    "dataloader": {
+        "use_session_token": false
+    },
+    "model": {
+        "temporal_dim": 0
+    }
+}

@@ -1,0 +1,5 @@
+{
+    "model": {
+        "dropout_prob": 0.3
+    }
+}

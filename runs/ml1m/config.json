@@ -1,0 +1,20 @@
+{
+    "dataset": "ml1m",
+    "dataloader": {
+        "sequence_len": 200,
+        "mlm_mask_prob": 0.2
+    },
+    "model": {
+        "hidden_dim": 256,
+        "num_heads": 2,
+        "dropout_prob": 0.2
+    },
+    "train": {
+        "epoch": 800,
+        "patience": 400,
+        "batch_size": 128,
+        "optimizer": {
+            "lr": 0.001
+        }
+    }
+}

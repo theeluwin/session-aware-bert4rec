@@ -1,0 +1,20 @@
+{
+    "dataset": "steam2",
+    "dataloader": {
+        "sequence_len": 15,
+        "mlm_mask_prob": 0.15
+    },
+    "model": {
+        "hidden_dim": 256,
+        "num_heads": 2,
+        "dropout_prob": 0.2
+    },
+    "train": {
+        "epoch": 800,
+        "patience": 400,
+        "batch_size": 2048,
+        "optimizer": {
+            "lr": 0.001
+        }
+    }
+}
